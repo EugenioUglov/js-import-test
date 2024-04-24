@@ -2,4 +2,8 @@ export function greet(name) {
     return `Hello, ${name}`;
 }
 
-export const message = "How you doing?";
+export let message = "How you doing?";
+
+export function changeMessage(newText) {
+    
+}
